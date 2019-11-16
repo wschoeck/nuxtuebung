@@ -69,7 +69,11 @@
     "test": "standard && npm run test-node && npm run test-browser",
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
-    "test-node": "tape test/*.js"
+    "test-node": "tape test/*.js",
+    "dev": "nuxt",
+   "build": "nuxt build",
+   "start": "nuxt start",
+   "generate": "nuxt generate"
   },
   "version": "1.2.0"
 }
