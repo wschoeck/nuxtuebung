@@ -70,10 +70,10 @@
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js",
-    "dev": "nuxt",
-   "build": "nuxt build",
-   "start": "nuxt start",
-   "generate": "nuxt generate"
+    "dev": "npm",
+   "build": "npm build",
+   "start": "npm start",
+   "generate": "npm generate"
   },
   "version": "1.2.0"
 }
